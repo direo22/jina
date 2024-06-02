@@ -26,6 +26,15 @@ const sidebarHTML = `
     <link rel="stylesheet" href="style.css" />
 
     <title>Sidebar</title>
+
+  //   <style>
+  //   #calendar {
+  //     width: ; /* 적절한 너비로 조정 */
+  //     height: 900px /* 적절한 높이로 조정 */
+  //     border: none;
+  //   }
+  // </style>
+
     </head>
     <body>
     <div class="sidebar">
@@ -77,15 +86,19 @@ const sidebarHTML = `
            
           </li>
           <li>
-            <a href="http://127.0.0.1:5500/board-front/Stopwatch/index.html">
+            <a href="http://localhost:5000/">
               
               <span class="text">채팅하기</span>
               
             </a>
            
           </li>
+
+          
         </ul>
-      </div>
+
+       <iframe src="http://127.0.0.1:5501/JM-main-main/SNS-PROJECT/board-front/src/views/CALENDAR/index2.html" title="특강" width="250px" height="400px"></iframe>
+        </div>
       <div class="menu">
         <p class="title"></p>
         
